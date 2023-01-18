@@ -1,0 +1,320 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+body{
+    font-family: Abhaya libre ;
+}
+.home{
+    background-color: #D7A86E;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 0.4fr;
+    column-gap: 20%;
+}
+.logo img{
+    width: 90px;
+    margin-left: 20px;
+}
+.link nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5%;
+    font-size: 23px;
+    transition: 0.7s;
+}
+.link nav a:hover{
+    color:black;
+}
+.link{
+    margin-top: 40px;
+}
+.name{
+    text-align: center;
+}
+.name button a{
+    color: white;
+    text-decoration: none;
+}
+.main-title{
+    font-size: 100px;
+    margin-bottom: 0px;
+    color: #60330b;
+} 
+.main-sub{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.name button{
+    background-color: #B67e4b;
+    border: none;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+.name button:hover{
+    transform: scale(1.2);
+}
+
+.images{
+    display: none;
+}
+
+.products{
+    background-color: #FFDEB5;
+    padding-bottom: 80px;
+}
+.products-title p{
+    color: #60330B;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 60px;
+}
+.grid-products{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 10px 1fr 1fr 1fr 10px;
+    column-gap: 10px;
+}
+.first-pic img{
+    width: 100%;
+    transition: 1s;
+
+}
+.first-pic p{
+    text-align: center;
+    color: #60330B;
+}
+.first-pic:hover{
+    transform: scale(1.1);
+}
+.second-pic img{
+    width: 100%;
+    transition: 1s;
+}
+.second-pic:hover{
+    transform: scale(1.1);
+}
+.second-pic p{
+    text-align: center;
+    color: #60330B;
+}
+.third-pic img{
+    width: 100%;
+}
+.first-pic, .second-pic, .third-pic {
+    transition: 1s;
+}
+.third-pic:hover{
+    transform: scale(1.1);
+}
+.third-pic p{
+    text-align: center;
+    color: #60330B;
+}
+.about{
+    background-color: #D7A86E;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 90px;
+}
+.about-text p{
+    margin-left: 50px;
+}
+.about-image img{
+    padding-left: 20px;
+    width: 100%;
+}
+.about-title p{
+    font-family: Abhaya libre;
+    font-size: 50px;
+    color: #60330b;
+}
+.about-sub p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 28px;
+}
+.contact{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #FFDEB5;
+}
+.contact-image img{
+    display: none;
+}
+.contact-info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.contact-info h2{
+    font-size: 80px;
+    color: #60330B;
+    
+}
+.contact-info h3{
+    font-size: 30px;
+    color: #60330B;
+    margin-top: 20px;
+}
+.contact-info p{
+    font-size: 20px;
+}
+@media only screen and (min-width: 992px){
+.navbar{
+    column-gap: 30%;
+}
+.logo img{
+    width: 100px;
+    margin-left: 30px;
+}
+.link nav a{
+    padding-left: 10%;
+    font-size: 25px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-title , .main-sub , button{
+    margin: 0px;
+    margin-left: 100px;
+}
+.name{
+    text-align: left;
+}
+.main-title{
+    font-size: 100px;
+    margin-top: 30px;
+    color: #60330b;
+} 
+.main-sub{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.images{
+    display: block;
+}
+.images img{
+    width: 400px;
+}
+.products-title p{
+    font-size: 80px;
+}
+.first-pic p{
+    font-size: 25px;
+}
+.second-pic p{
+    font-size: 25px;
+}
+.third-pic p{
+    font-size: 25px;
+}
+.about{
+    background-color: #D7A86E;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 90px;
+}
+.about-text p{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.about-image img{
+    padding-left: 20px;
+    width: 100%;
+}
+.about-title p{
+    font-family: Abhaya libre;
+    font-size: 70px;
+    color: #60330b;
+}
+.about-sub p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact{
+    grid-template-columns: 1fr 1fr;
+}
+.contact-image img{
+    display: block;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    width: 400px;
+    margin-left: 100px;
+}
+.contact-info {
+    margin-left: 200px;
+    margin-right: 0px;
+    padding-top: 150px;
+    margin-bottom: 0px;
+    border-right: 3px solid #60330B;
+}
+.contact-info h2{
+    font-size: 80px;
+    color: #60330B;
+    
+}
+.contact-info h3{
+    font-size: 30px;
+    color: #60330B;
+    margin-top: 20px;
+}
+.contact-info p{
+    font-size: 20px;
+}
+}
+@media only screen and (min-width: 1200px){
+    .navbar{
+    column-gap: 35%;
+}
+    .main-title{
+        margin-top: 150px;
+    }
+    .first-pic p{
+        font-size: 30px;
+    }
+    .second-pic p{
+        font-size: 30px;
+    }
+    .third-pic p{
+        font-size: 30px;
+    }
+    
+}
+@media only screen and (min-width: 1500px){
+    .navbar{
+    column-gap: 40%;    
+    }
+    .logo img{
+    margin-top: 20px;
+    }
+    .name{
+        margin-left: 100px;
+    }
+    .main-sub{
+        font-size: 20px;
+    }
+}
